@@ -1,4 +1,5 @@
 import { Equal, Expect } from 'src/helper';
+import { preProcessFile } from 'typescript';
 
 const func = (foo: string, obj: { bar: number; bas: boolean }): void => {};
 
